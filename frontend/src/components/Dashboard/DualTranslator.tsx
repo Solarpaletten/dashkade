@@ -95,7 +95,7 @@ const DualTranslator: React.FC = () => {
   }, [dialectIndex, isRecording]);
 
   useEffect(() => {
-    if (translatedText && translatedText !== 'Перевод появится здесь...' && originalText) {
+    if (translatedText && translatedText !== 'Translation will appear here...' && originalText) {
       const newEntry = {
         speaker: username || (dialect.startsWith('ru') ? 'RU' : 'EN'),
         lang: dialect,
