@@ -224,7 +224,7 @@ const DashboardDesktop: React.FC = () => {
               onClick={translateText}
               disabled={isTranslating || (!inputText.trim() && currentMode === 'text')}
             >
-              {isTranslating ? '⏳ Переводим...' : `🔄 ${currentLanguageConfig.buttons.translate}`}
+              {isTranslating ? '⏳ Translating' : `🔄 ${currentLanguageConfig.buttons.translate}`}
             </button>
 
             <button

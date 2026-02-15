@@ -325,7 +325,7 @@ const DualTranslator: React.FC = () => {
             <div className="flex justify-between items-center mb-4">
               <h2 className="text-white text-xl font-semibold">🌐 Перевод</h2>
               <button
-                onClick={() => copyToClipboard(translatedText, 'Перевод')}
+                onClick={() => copyToClipboard(translatedText, 'Translation')}
                 className="px-3 py-1 bg-white/20 hover:bg-white/30 rounded-lg text-white text-sm"
               >
                 📋 Копировать
@@ -333,7 +333,7 @@ const DualTranslator: React.FC = () => {
             </div>
             <div ref={rightPanelRef} className="flex-1 bg-white/5 rounded-xl p-4 overflow-y-auto">
               <p className="text-white text-lg leading-relaxed whitespace-pre-wrap">
-                {translatedText || 'Перевод появится здесь...'}
+                {translatedText || 'Translation will appear here...'}
               </p>
             </div>
           </div >

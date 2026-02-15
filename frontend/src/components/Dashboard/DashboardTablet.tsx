@@ -157,7 +157,7 @@ const DashboardTablet: React.FC = () => {
               onClick={translateText}
               disabled={isTranslating}
             >
-              {isTranslating ? '⏳ Переводим...' : `🔄 ${currentLanguageConfig.buttons.translate}`}
+              {isTranslating ? '⏳ Translating' : currentLanguageConfig.buttons.translate}
             </button>
             
             <button

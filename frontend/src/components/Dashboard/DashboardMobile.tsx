@@ -154,7 +154,7 @@ const DashboardMobile: React.FC = () => {
               onClick={translateText}
               disabled={isTranslating}
             >
-              {isTranslating ? '⏳ Переводим...' : '🔄 Перевести'}
+              {isTranslating ? '⏳ Translating' : '
             </button>
             
             <button
