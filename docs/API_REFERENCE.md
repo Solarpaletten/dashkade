@@ -2,7 +2,7 @@
 
 **Version:** 3.0.0  
 **Base URL:** `http://localhost:8080` (development)  
-**Production URL:** `https://dashka-translate.onrender.com`  
+**Production URL:** `https://dashka-chat-api.onrender.com`  
 **WebSocket:** `ws://localhost:8080/ws` (development)
 
 ---
@@ -714,12 +714,12 @@ watch -n 5 'curl -s http://localhost:8080/stats | jq ".stats | {requests: .reque
 ### Base URL
 Update all requests to production URL:
 ```
-https://dashka-translate.onrender.com
+https://dashka-chat-api.onrender.com
 ```
 
 ### WebSocket URL
 ```
-wss://dashka-translate.onrender.com/ws
+wss://dashka-chat-api.onrender.com/ws
 ```
 
 ### Rate Limits

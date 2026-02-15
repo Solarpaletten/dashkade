@@ -315,7 +315,7 @@ const DualTranslator: React.FC = () => {
                   performTranslation(originalText);
                 }
               }}
-              placeholder="Начните говорить или вставьте текст..."
+              placeholder="Start speaking or paste text..."
               className="flex-1 bg-white/5 rounded-xl p-4 text-white text-lg leading-relaxed resize-none focus:outline-none focus:ring-2 focus:ring-white/50"
             />
           </div >

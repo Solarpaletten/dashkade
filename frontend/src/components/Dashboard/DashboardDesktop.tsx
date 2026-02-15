@@ -254,7 +254,7 @@ const DashboardDesktop: React.FC = () => {
           </div>
 
           <div className="flex-1 rounded-xl p-4 bg-white text-gray-900 text-lg whitespace-pre-line overflow-auto">
-            {translatedText || "Перевод появится здесь..."}
+            {translatedText || "Translation will appear here..."}
           </div>
         </div>
       </main>

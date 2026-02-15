@@ -103,7 +103,7 @@ const DashboardMobile: React.FC = () => {
               <div className="relative">
                 <textarea
                   className="w-full h-24 rounded-xl p-3 resize-none text-gray-900 text-sm border-none focus:outline-none focus:ring-2 focus:ring-white/50"
-                  placeholder="Введите текст..."
+                  placeholder="Enter text..."
                   value={inputText}
                   onChange={(e) => setInputText(e.target.value)}
                 />
@@ -179,7 +179,7 @@ const DashboardMobile: React.FC = () => {
           </div>
 
           <div className="rounded-xl p-3 bg-white text-gray-900 text-sm min-h-[60px] whitespace-pre-line">
-            {translatedText || "Перевод появится здесь..."}
+            {translatedText || "Translation will appear here..."}
           </div>
         </div>
 

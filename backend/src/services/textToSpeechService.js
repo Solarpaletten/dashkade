@@ -25,7 +25,6 @@ class TextToSpeechService {
     // Supported languages with their voice preferences
     this.supportedLanguages = {
       'en': { name: 'English', voice: 'alloy' },
-      'ru': { name: 'Russian', voice: 'shimmer' },
     };
 
     // Available OpenAI voices

@@ -184,7 +184,7 @@ const DashboardTablet: React.FC = () => {
           </div>
 
           <div className="rounded-xl p-4 bg-white text-gray-900 min-h-[100px] whitespace-pre-line">
-            {translatedText || "Перевод появится здесь..."}
+            {translatedText || "Translation will appear here..."}
           </div>
         </div>
 

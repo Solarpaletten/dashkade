@@ -31,7 +31,7 @@ function setupRoutes(app) {
         '/languages',
         '/stats'
       ],
-      websocket: 'wss://dashka-translate.onrender.com/ws'
+      websocket: 'wss://dashka-chat-api.onrender.com/ws'
     });
   });
   
