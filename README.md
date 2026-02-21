@@ -37,4 +37,6 @@ git push origin main
 
 delete cors
 
+git add .
 git commit -m "dashka-chat"
+git push  
